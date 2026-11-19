@@ -1,0 +1,39 @@
+{
+  "dataset": {
+    "source_count": 145,
+    "edge_count": 4771,
+    "unapproved_qa_drafts": 290,
+    "sha256": "6fae5c2bb59319422cd87b3ae799db09f315e09ca479a83d5451e1a2cf7be902"
+  },
+  "notebooks": {
+    "EDA": {
+      "cells": 167,
+      "code_cells": 27,
+      "code_with_saved_output": 27,
+      "blank_cells": 0,
+      "error_outputs": 0
+    },
+    "ML": {
+      "cells": 305,
+      "code_cells": 62,
+      "code_with_saved_output": 62,
+      "blank_cells": 0,
+      "error_outputs": 0
+    }
+  },
+  "model_artifacts": {
+    "trained_domain_classifier": true,
+    "gpu_qlora_adapter_present": false,
+    "colab_llm_baseline_record_present": false
+  },
+  "human_review": {
+    "supervised_train_rows": 0,
+    "independent_approved_eval_rows": 0
+  },
+  "submission_ready": false,
+  "limitations": [
+    "Cannot infer approval from code",
+    "Artifact presence does not certify model quality",
+    "Final academic submission needs researcher review, correct citations and evidence of actual GPU runs"
+  ]
+}

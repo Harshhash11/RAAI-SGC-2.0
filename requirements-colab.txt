@@ -1,0 +1,9 @@
+# Run on Colab T4 (PyTorch is provided by Colab runtime)
+-r requirements.txt
+transformers>=4.48,<5
+accelerate>=1,<2
+peft>=0.15,<1
+bitsandbytes>=0.45
+sentence-transformers>=3,<6
+# Optional only once approved train labels exist:
+datasets>=3,<5

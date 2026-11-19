@@ -1,0 +1,65 @@
+{
+  "status": "CONDITIONAL_PASS",
+  "row_count": 5206,
+  "column_count": 32,
+  "record_types": {
+    "SOURCE": 145,
+    "EDGE": 4771,
+    "QA_DRAFT": 290
+  },
+  "source_count": 145,
+  "domain_source_counts": {
+    "ai_ml": 40,
+    "cybersecurity": 36,
+    "cloud_devops": 32,
+    "software_engineering": 37
+  },
+  "split_source_counts": {
+    "train": 116,
+    "validation": 14,
+    "test": 15
+  },
+  "critical_errors": [],
+  "warnings": [
+    "Limited IT source coverage; 4 domains have fewer than 200 combined sources",
+    "Fewer than 500 draft Q&A records",
+    "No human source, licensing, or answer approval recorded; cannot certify fine-tuning readiness",
+    "No independent, human-reviewed gold evaluation benchmark"
+  ],
+  "checks": {
+    "record_ids_unique": true,
+    "sources_unique": true,
+    "broken_source_links": 0,
+    "hash_failures": 0,
+    "provenance_failures": 0,
+    "evidence_offset_failures": 0,
+    "graph_arithmetic_failures": 0,
+    "qa_evidence_failures": 0,
+    "self_loops": 0,
+    "transition_sum_failures": 0
+  },
+  "input_baseline_sources": 149,
+  "excluded_source_titles": [
+    "Ancient language",
+    "Neural network (biology)",
+    "Software Engineering Notes",
+    "Arabic"
+  ],
+  "excluded_source_rows": 4,
+  "source_risk_flags": {
+    "SHORT_SOURCE_TEXT": 7,
+    "LOW_WORD_COUNT": 4
+  },
+  "term_risk_flags": {
+    "GENERIC_TERM": 19
+  },
+  "qa_risk_flags": {
+    "TEMPLATE_CONTEXT_QUESTION": 145,
+    "LONG_EXTRACTIVE_ANSWER": 9,
+    "SHORT_ANSWER": 10
+  },
+  "source_license_status": "PENDING_REVIEW",
+  "qa_approval_status": "PENDING_REVIEW",
+  "training_ready": false,
+  "independent_benchmark_ready": false
+}

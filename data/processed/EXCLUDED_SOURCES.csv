@@ -1,0 +1,5 @@
+source_id,source_title,domain,source_url,reason
+wiki:10402117,Ancient language,ai_ml,https://en.wikipedia.org/wiki/Ancient_language,Linguistics/history article outside the four IT subdomains
+wiki:1729542,Neural network (biology),ai_ml,https://en.wikipedia.org/wiki/Neural_network_(biology),Biological network article; retain computational neural-network source instead
+wiki:2666118,Software Engineering Notes,software_engineering,https://en.wikipedia.org/wiki/Software_Engineering_Notes,Academic journal entry rather than a technical software-engineering concept
+wiki:803,Arabic,ai_ml,https://en.wikipedia.org/wiki/Arabic,"Natural language article, not a technical NLP-method source"

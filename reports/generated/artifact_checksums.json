@@ -1,0 +1,18 @@
+{
+  "data/processed/master.csv": {
+    "bytes": 11951696,
+    "sha256": "6fae5c2bb59319422cd87b3ae799db09f315e09ca479a83d5451e1a2cf7be902"
+  },
+  "notebooks/01_RAAI_SGC_EDA_COLAB.ipynb": {
+    "bytes": 619756,
+    "sha256": "864b3f991366550ac19431a4d7048176ef4dfcb224d9a97a4a6ac9bc4033dbf6"
+  },
+  "notebooks/02_RAAI_SGC_ML_COLAB.ipynb": {
+    "bytes": 758981,
+    "sha256": "6c445b36ec23c0c9e47e33a3a2d4a1730a95d059ab487ffc9d20300c2ed92624"
+  },
+  "models/exports/domain_classifier.joblib": {
+    "bytes": 756140,
+    "sha256": "511094614a7a433787669291abf5c8ca0c8d59f3649937b2ee3c4dd5a9bda92f"
+  }
+}

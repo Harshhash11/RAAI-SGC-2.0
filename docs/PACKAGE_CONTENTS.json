@@ -1,0 +1,329 @@
+{
+  "file_count": 111,
+  "files": {
+    ".env.example": {
+      "bytes": 117
+    },
+    ".gitignore": {
+      "bytes": 94
+    },
+    "README.md": {
+      "bytes": 5956
+    },
+    "START_HERE.md": {
+      "bytes": 2238
+    },
+    "app/__init__.py": {
+      "bytes": 0
+    },
+    "app/gradio_app.py": {
+      "bytes": 2771
+    },
+    "data/processed/EXCLUDED_SOURCES.csv": {
+      "bytes": 684
+    },
+    "data/processed/data_dictionary.csv": {
+      "bytes": 1902
+    },
+    "data/processed/dataset_metadata.json": {
+      "bytes": 787
+    },
+    "data/processed/dataset_quality_report.json": {
+      "bytes": 1657
+    },
+    "data/processed/master.csv": {
+      "bytes": 11951696
+    },
+    "data/raw/baseline_149_sources.csv": {
+      "bytes": 12438061
+    },
+    "data/review/ANSWER_EVALUATION_RUBRIC_TEMPLATE.csv": {
+      "bytes": 177
+    },
+    "data/review/APPROVED_QA_ONLY.csv": {
+      "bytes": 409
+    },
+    "data/review/INDEPENDENT_EVALUATION_TEMPLATE.csv": {
+      "bytes": 115
+    },
+    "data/review/QA_REVIEW_QUEUE.csv": {
+      "bytes": 207365
+    },
+    "data/review/SOURCE_REVIEW_QUEUE.csv": {
+      "bytes": 24748
+    },
+    "data/review/TERM_REVIEW_QUEUE.csv": {
+      "bytes": 229543
+    },
+    "data/training/.gitkeep": {
+      "bytes": 0
+    },
+    "data/training/sft_train.jsonl": {
+      "bytes": 0
+    },
+    "dataset_engineering/collector_reference/pipeline.py": {
+      "bytes": 30939
+    },
+    "dataset_engineering/collector_reference/seeds.json": {
+      "bytes": 3404
+    },
+    "dataset_engineering/collector_reference/technical_glossary.json": {
+      "bytes": 1826
+    },
+    "dataset_engineering/export_approved.py": {
+      "bytes": 1756
+    },
+    "dataset_engineering/finalize_dataset.py": {
+      "bytes": 10138
+    },
+    "dataset_engineering/validate_dataset.py": {
+      "bytes": 4657
+    },
+    "docs/ARCHITECTURE.md": {
+      "bytes": 912
+    },
+    "docs/COLAB_DRIVE_MAIN_PROJECT.md": {
+      "bytes": 1179
+    },
+    "docs/COLAB_T4_GUIDE.md": {
+      "bytes": 1355
+    },
+    "docs/EXPERIMENT_LOG_TEMPLATE.md": {
+      "bytes": 918
+    },
+    "docs/FINAL_ACTIONS_AND_OWNERSHIP.md": {
+      "bytes": 1681
+    },
+    "docs/FINAL_TECHNICAL_REPORT.md": {
+      "bytes": 3389
+    },
+    "docs/FOLDER_KEEP_ADD_DELETE.md": {
+      "bytes": 1316
+    },
+    "docs/IMPLEMENTATION_ROADMAP.md": {
+      "bytes": 2237
+    },
+    "docs/INDUSTRY_PROJECT_DEMO_GUIDE.md": {
+      "bytes": 2388
+    },
+    "docs/MODEL_AND_DATA_CARDS.md": {
+      "bytes": 1993
+    },
+    "docs/PROJECT_MAINTENANCE.md": {
+      "bytes": 2241
+    },
+    "docs/PROJECT_STATUS.md": {
+      "bytes": 1211
+    },
+    "docs/REPRODUCIBILITY.md": {
+      "bytes": 1205
+    },
+    "docs/RESEARCH_PAPER_DRAFT.md": {
+      "bytes": 5801
+    },
+    "docs/SUBMISSION_READINESS.md": {
+      "bytes": 2504
+    },
+    "docs/dataset/FINAL_DATASET_REPORT.md": {
+      "bytes": 3254
+    },
+    "docs/dataset/METHODOLOGY.md": {
+      "bytes": 4204
+    },
+    "docs/dataset/REVIEW_AND_RELEASE.md": {
+      "bytes": 2635
+    },
+    "docs/research/EXPERIMENTAL_REPORT_DRAFT.md": {
+      "bytes": 7838
+    },
+    "docs/research/EXPERIMENT_LOG_TEMPLATE.md": {
+      "bytes": 556
+    },
+    "docs/research/PAPER_PLAN.md": {
+      "bytes": 887
+    },
+    "evaluation/__init__.py": {
+      "bytes": 0
+    },
+    "evaluation/compare_retrievers.py": {
+      "bytes": 3593
+    },
+    "evaluation/prepare_answer_review.py": {
+      "bytes": 1500
+    },
+    "evaluation/run_retrieval_eval.py": {
+      "bytes": 2506
+    },
+    "models/checkpoints/.gitkeep": {
+      "bytes": 0
+    },
+    "models/exports/.gitkeep": {
+      "bytes": 0
+    },
+    "models/exports/domain_classifier.joblib": {
+      "bytes": 756140
+    },
+    "notebooks/01_RAAI_SGC_EDA_COLAB.ipynb": {
+      "bytes": 619936
+    },
+    "notebooks/01_university_EDA_TEMPLATE.ipynb": {
+      "bytes": 22447
+    },
+    "notebooks/02_RAAI_SGC_ML_COLAB.ipynb": {
+      "bytes": 758981
+    },
+    "notebooks/02_university_ML_TEMPLATE.ipynb": {
+      "bytes": 42100
+    },
+    "notebooks/03_project_dataset_EDA.ipynb": {
+      "bytes": 3184
+    },
+    "notebooks/04_retrieval_experiments.ipynb": {
+      "bytes": 3101
+    },
+    "notebooks/05_colab_t4_llm_qlora.ipynb": {
+      "bytes": 12373
+    },
+    "notebooks/06_colab_drive_inference_and_training.ipynb": {
+      "bytes": 13632
+    },
+    "notebooks/README_COLAB_EDA_ML.md": {
+      "bytes": 4248
+    },
+    "reports/generated/.gitkeep": {
+      "bytes": 0
+    },
+    "reports/generated/artifact_checksums.json": {
+      "bytes": 601
+    },
+    "reports/generated/completion_status.json": {
+      "bytes": 231
+    },
+    "reports/generated/executed_checks.json": {
+      "bytes": 2000
+    },
+    "reports/generated/final_audit_stdout.txt": {
+      "bytes": 1010
+    },
+    "reports/generated/final_readiness_audit.json": {
+      "bytes": 1009
+    },
+    "reports/generated/final_readiness_audit_stdout.json": {
+      "bytes": 1010
+    },
+    "reports/generated/kubernetes_cli_smoke.txt": {
+      "bytes": 247
+    },
+    "reports/generated/measured_results.json": {
+      "bytes": 1700
+    },
+    "reports/generated/ml_domain_classification_metrics.json": {
+      "bytes": 762
+    },
+    "reports/generated/project_check.json": {
+      "bytes": 351
+    },
+    "reports/generated/project_check.log": {
+      "bytes": 352
+    },
+    "reports/generated/retrieval_title_self_probes.json": {
+      "bytes": 87775
+    },
+    "reports/notebook_local_smoke_test.json": {
+      "bytes": 868
+    },
+    "requirements-app.txt": {
+      "bytes": 33
+    },
+    "requirements-colab.txt": {
+      "bytes": 242
+    },
+    "requirements-llm.txt": {
+      "bytes": 74
+    },
+    "requirements-semantic.txt": {
+      "bytes": 48
+    },
+    "requirements-training.txt": {
+      "bytes": 79
+    },
+    "requirements.txt": {
+      "bytes": 68
+    },
+    "scripts/check_project.py": {
+      "bytes": 2063
+    },
+    "scripts/final_audit.py": {
+      "bytes": 2817
+    },
+    "scripts/run_app.sh": {
+      "bytes": 113
+    },
+    "scripts/run_audit.sh": {
+      "bytes": 207
+    },
+    "scripts/run_checks.sh": {
+      "bytes": 265
+    },
+    "scripts/setup_ubuntu.sh": {
+      "bytes": 306
+    },
+    "src/__init__.py": {
+      "bytes": 0
+    },
+    "src/answers.py": {
+      "bytes": 895
+    },
+    "src/audit.py": {
+      "bytes": 1205
+    },
+    "src/cli_chat.py": {
+      "bytes": 1043
+    },
+    "src/grounding.py": {
+      "bytes": 2002
+    },
+    "src/hybrid.py": {
+      "bytes": 8818
+    },
+    "src/llm.py": {
+      "bytes": 2272
+    },
+    "start.sh": {
+      "bytes": 1482
+    },
+    "tests/test_adapter_support.py": {
+      "bytes": 650
+    },
+    "tests/test_colab_training.py": {
+      "bytes": 1687
+    },
+    "tests/test_grounding.py": {
+      "bytes": 1744
+    },
+    "tests/test_hybrid.py": {
+      "bytes": 2286
+    },
+    "tests/test_integrated.py": {
+      "bytes": 1604
+    },
+    "tests/test_training_provenance.py": {
+      "bytes": 2410
+    },
+    "training/__init__.py": {
+      "bytes": 0
+    },
+    "training/prepare_sft.py": {
+      "bytes": 1357
+    },
+    "training/train_qlora.py": {
+      "bytes": 2884
+    },
+    "training/train_qlora_colab.py": {
+      "bytes": 5108
+    },
+    "training/validation.py": {
+      "bytes": 1758
+    }
+  }
+}

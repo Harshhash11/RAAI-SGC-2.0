@@ -1,0 +1,10 @@
+{
+  "count_rows": 5206,
+  "count_sources": 145,
+  "count_edges": 4771,
+  "count_draft_qa": 290,
+  "approved_qa_rows": 0,
+  "approved_independent_gold_rows": 0,
+  "gpu_available": false,
+  "generative_llm_weights_available": false
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "command": "python -m pytest -q",
+    "returncode": 0,
+    "stdout": ".......................                                                  [100%]\n23 passed in 1.01s\n",
+    "stderr": ""
+  },
+  {
+    "command": "python scripts/check_project.py",
+    "returncode": 0,
+    "stdout": "{\n  \"sources\": 145,\n  \"edges\": 4771,\n  \"draft_qa\": 290,\n  \"approved_sft_examples\": 0,\n  \"approved_independent_eval\": 0,\n  \"kubernetes_top_hit\": \"Kubernetes\",\n  \"graph_activated_for_smoke_test\": true,\n  \"optional_gradio_installed\": true,\n  \"optional_transformers_installed\": false,\n  \"status\": \"CORE_CHECKS_PASSED; GPU and review gates still pending\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python -m dataset_engineering.validate_dataset",
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"CONDITIONAL_PASS\",\n  \"row_count\": 5206,\n  \"column_count\": 32,\n  \"record_types\": {\n    \"SOURCE\": 145,\n    \"EDGE\": 4771,\n    \"QA_DRAFT\": 290\n  },\n  \"source_count\": 145,\n  \"domain_source_counts\": {\n    \"ai_ml\": 40,\n    \"cybersecurity\": 36,\n    \"cloud_devops\": 32,\n    \"software_engineering\": 37\n  },\n  \"split_source_counts\": {\n    \"train\": 116,\n    \"validation\": 14,\n    \"test\": 15\n  },\n  \"critical_errors\": [],\n  \"warnings\": [\n    \"Limited IT source coverage; 4 domains have fewer than 200 combined sources\",\n    \"Fewer than 500 draft Q&A records\",\n    \"No human source, licensing, or answer approval recorded; cannot certify fine-tuning readiness\",\n    \"No independent, human-reviewed gold evaluation benchmark\"\n  ],\n  \"checks\": {\n    \"record_ids_unique\": true,\n    \"sources_unique\": true,\n    \"broken_source_links\": 0,\n    \"hash_failures\": 0,\n    \"provenance_failures\": 0,\n    \"evidence_offset_failures\": 0,\n    \"graph_arithmetic_failures\": 0,\n    \"qa_evidence_failures\": 0,\n    \"self_loops\": 0,\n    \"transition_sum_failures\": 0\n  }\n}\n",
+    "stderr": ""
+  }
+]

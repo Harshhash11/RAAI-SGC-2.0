@@ -1,0 +1,30 @@
+{
+  "validation": {
+    "Dummy baseline": {
+      "val_macro_f1": 0.1111111111111111,
+      "val_accuracy": 0.2857142857142857
+    },
+    "ComplementNB": {
+      "val_macro_f1": 0.7597222222222222,
+      "val_accuracy": 0.7857142857142857
+    },
+    "ComplementNB tuned": {
+      "val_macro_f1": 0.7666666666666666,
+      "val_accuracy": 0.7857142857142857
+    },
+    "LogisticRegression": {
+      "val_macro_f1": 0.8541666666666666,
+      "val_accuracy": 0.8571428571428571
+    },
+    "LogisticRegression tuned": {
+      "val_macro_f1": 0.9365079365079365,
+      "val_accuracy": 0.9285714285714286
+    }
+  },
+  "holdout": {
+    "model": "LogisticRegression tuned",
+    "test_accuracy": 0.8,
+    "test_macro_f1": 0.7666666666666666,
+    "test_examples": 15
+  }
+}

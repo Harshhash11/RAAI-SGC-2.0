@@ -1,0 +1,3079 @@
+{
+  "description": "ENGINEERING SOURCE-TITLE SELF-RETRIEVAL DIAGNOSTIC; not independent gold, not chatbot QA accuracy. Queries are generated mechanically from indexed source titles.",
+  "backend": "tfidf",
+  "top_k": 5,
+  "modes": {
+    "vector": {
+      "n": 145,
+      "title_self_recall_at_1": 0.889655,
+      "title_self_recall_at_5": 1.0,
+      "mean_retrieval_ms": 0.7882,
+      "graph_activation_fraction": 0.0,
+      "individual_probes": [
+        {
+          "source_id": "wiki:100558",
+          "source_title": "A* search algorithm",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 15.3629
+        },
+        {
+          "source_id": "wiki:1129827",
+          "source_title": "Vulnerability (computer security)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8307
+        },
+        {
+          "source_id": "wiki:113021",
+          "source_title": "Intrusion detection system",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6461
+        },
+        {
+          "source_id": "wiki:11322600",
+          "source_title": "Acoustic model",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6613
+        },
+        {
+          "source_id": "wiki:11590152",
+          "source_title": "Amazon Elastic Compute Cloud",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6634
+        },
+        {
+          "source_id": "wiki:1164",
+          "source_title": "Artificial intelligence",
+          "rank": 3,
+          "graph_activated": false,
+          "retrieval_ms": 0.6262
+        },
+        {
+          "source_id": "wiki:1199793",
+          "source_title": "Penetration test",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6757
+        },
+        {
+          "source_id": "wiki:12103809",
+          "source_title": "Infrastructure as a service",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6636
+        },
+        {
+          "source_id": "wiki:1242",
+          "source_title": "Ada (programming language)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6027
+        },
+        {
+          "source_id": "wiki:1260",
+          "source_title": "Advanced Encryption Standard",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.6575
+        },
+        {
+          "source_id": "wiki:12737925",
+          "source_title": "Abductive logic programming",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6203
+        },
+        {
+          "source_id": "wiki:1363880",
+          "source_title": "Random forest",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.5889
+        },
+        {
+          "source_id": "wiki:13790",
+          "source_title": "Hash function",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6238
+        },
+        {
+          "source_id": "wiki:14343887",
+          "source_title": "Precision and recall",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6495
+        },
+        {
+          "source_id": "wiki:15036",
+          "source_title": "Information security",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.6112
+        },
+        {
+          "source_id": "wiki:151617",
+          "source_title": "Authorization",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6438
+        },
+        {
+          "source_id": "wiki:15893057",
+          "source_title": "Applications of artificial intelligence",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.5884
+        },
+        {
+          "source_id": "wiki:164952",
+          "source_title": "Software design pattern",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6311
+        },
+        {
+          "source_id": "wiki:1691376",
+          "source_title": "Amazon Web Services",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.6078
+        },
+        {
+          "source_id": "wiki:16986024",
+          "source_title": "Platform as a service",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6414
+        },
+        {
+          "source_id": "wiki:1706303",
+          "source_title": "Recurrent neural network",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6387
+        },
+        {
+          "source_id": "wiki:1711076",
+          "source_title": "Database index",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6179
+        },
+        {
+          "source_id": "wiki:173332",
+          "source_title": "Overfitting",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.5892
+        },
+        {
+          "source_id": "wiki:1771747",
+          "source_title": "Git",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6124
+        },
+        {
+          "source_id": "wiki:1774081",
+          "source_title": "Continuous integration",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.5891
+        },
+        {
+          "source_id": "wiki:1804746",
+          "source_title": "Distributed version control",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7412
+        },
+        {
+          "source_id": "wiki:18311356",
+          "source_title": "Virtualization",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7492
+        },
+        {
+          "source_id": "wiki:18545292",
+          "source_title": "GitHub",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6205
+        },
+        {
+          "source_id": "wiki:1860407",
+          "source_title": "K-means clustering",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6361
+        },
+        {
+          "source_id": "wiki:187813",
+          "source_title": "Transport Layer Security",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6336
+        },
+        {
+          "source_id": "wiki:18934432",
+          "source_title": "Cryptography",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.5758
+        },
+        {
+          "source_id": "wiki:18994196",
+          "source_title": "Computer virus",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6202
+        },
+        {
+          "source_id": "wiki:1906321",
+          "source_title": "Ransomware",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.663
+        },
+        {
+          "source_id": "wiki:194112",
+          "source_title": "Public key infrastructure",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.6061
+        },
+        {
+          "source_id": "wiki:19541494",
+          "source_title": "Cloud computing",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6433
+        },
+        {
+          "source_id": "wiki:19961416",
+          "source_title": "Microsoft Azure",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6541
+        },
+        {
+          "source_id": "wiki:201489",
+          "source_title": "Gradient descent",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6059
+        },
+        {
+          "source_id": "wiki:20609862",
+          "source_title": "AACS encryption key controversy",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6109
+        },
+        {
+          "source_id": "wiki:20926",
+          "source_title": "Supervised learning",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.775
+        },
+        {
+          "source_id": "wiki:21652",
+          "source_title": "Natural language processing",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7065
+        },
+        {
+          "source_id": "wiki:21785911",
+          "source_title": "API testing",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7448
+        },
+        {
+          "source_id": "wiki:222828",
+          "source_title": "Unit testing",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.9319
+        },
+        {
+          "source_id": "wiki:2244296",
+          "source_title": "Authenticated encryption",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6923
+        },
+        {
+          "source_id": "wiki:2262333",
+          "source_title": "Software as a service",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6952
+        },
+        {
+          "source_id": "wiki:226631",
+          "source_title": "Logistic regression",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6525
+        },
+        {
+          "source_id": "wiki:22772421",
+          "source_title": "Multi-factor authentication",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8597
+        },
+        {
+          "source_id": "wiki:233488",
+          "source_title": "Machine learning",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.8514
+        },
+        {
+          "source_id": "wiki:233497",
+          "source_title": "Unsupervised learning",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6327
+        },
+        {
+          "source_id": "wiki:23968131",
+          "source_title": "NoSQL",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6489
+        },
+        {
+          "source_id": "wiki:240270",
+          "source_title": "Advanced SCSI Programming Interface",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6887
+        },
+        {
+          "source_id": "wiki:241154",
+          "source_title": "Cross-site scripting",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6068
+        },
+        {
+          "source_id": "wiki:24222",
+          "source_title": "Public-key cryptography",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6395
+        },
+        {
+          "source_id": "wiki:24714635",
+          "source_title": "AAAI Conference on Artificial Intelligence",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6254
+        },
+        {
+          "source_id": "wiki:25873",
+          "source_title": "Relational database",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6121
+        },
+        {
+          "source_id": "wiki:26173989",
+          "source_title": "Firewall (computing)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.623
+        },
+        {
+          "source_id": "wiki:26220",
+          "source_title": "Relational model",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6255
+        },
+        {
+          "source_id": "wiki:26649339",
+          "source_title": "Gradient boosting",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6225
+        },
+        {
+          "source_id": "wiki:27010",
+          "source_title": "Software engineering",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6288
+        },
+        {
+          "source_id": "wiki:27262733",
+          "source_title": "Security information and event management",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.5986
+        },
+        {
+          "source_id": "wiki:27471338",
+          "source_title": "Object-oriented programming",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.6183
+        },
+        {
+          "source_id": "wiki:27488100",
+          "source_title": "DevOps",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6087
+        },
+        {
+          "source_id": "wiki:27504787",
+          "source_title": "Agent-oriented programming",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6209
+        },
+        {
+          "source_id": "wiki:27697009",
+          "source_title": "API",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.617
+        },
+        {
+          "source_id": "wiki:28801798",
+          "source_title": "Active learning (machine learning)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6617
+        },
+        {
+          "source_id": "wiki:29004",
+          "source_title": "SQL",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.6215
+        },
+        {
+          "source_id": "wiki:29090",
+          "source_title": "Software testing",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.6304
+        },
+        {
+          "source_id": "wiki:2962342",
+          "source_title": "Security operations center",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6057
+        },
+        {
+          "source_id": "wiki:30682131",
+          "source_title": "Jenkins (software)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6226
+        },
+        {
+          "source_id": "wiki:30873116",
+          "source_title": "3D modeling",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6595
+        },
+        {
+          "source_id": "wiki:3192516",
+          "source_title": "ACM Computing Classification System",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6115
+        },
+        {
+          "source_id": "wiki:32353",
+          "source_title": "Virtual machine",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8161
+        },
+        {
+          "source_id": "wiki:32472154",
+          "source_title": "Deep learning",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6727
+        },
+        {
+          "source_id": "wiki:32966352",
+          "source_title": "Repository (version control)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6078
+        },
+        {
+          "source_id": "wiki:33040530",
+          "source_title": "Platform engineering",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6291
+        },
+        {
+          "source_id": "wiki:33957671",
+          "source_title": "Continuous delivery",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6688
+        },
+        {
+          "source_id": "wiki:349771",
+          "source_title": "Artificial neuron",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6032
+        },
+        {
+          "source_id": "wiki:355711",
+          "source_title": "Integration testing",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7281
+        },
+        {
+          "source_id": "wiki:357881",
+          "source_title": "Test-driven development",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.6496
+        },
+        {
+          "source_id": "wiki:36120070",
+          "source_title": "Continuous deployment",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6186
+        },
+        {
+          "source_id": "wiki:36219037",
+          "source_title": "Ansible (software)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.9635
+        },
+        {
+          "source_id": "wiki:373991",
+          "source_title": "Atomicity (database systems)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8912
+        },
+        {
+          "source_id": "wiki:3920550",
+          "source_title": "Transfer learning",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7659
+        },
+        {
+          "source_id": "wiki:39776",
+          "source_title": "Denial-of-service attack",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6746
+        },
+        {
+          "source_id": "wiki:4005528",
+          "source_title": "Common Vulnerabilities and Exposures",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7331
+        },
+        {
+          "source_id": "wiki:40149201",
+          "source_title": "Docker (software)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6935
+        },
+        {
+          "source_id": "wiki:40409788",
+          "source_title": "Convolutional neural network",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6893
+        },
+        {
+          "source_id": "wiki:40684",
+          "source_title": "Access control",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.596
+        },
+        {
+          "source_id": "wiki:416612",
+          "source_title": "Cross-validation (statistics)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6185
+        },
+        {
+          "source_id": "wiki:41969386",
+          "source_title": "Acceptance test-driven development",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.5853
+        },
+        {
+          "source_id": "wiki:42173273",
+          "source_title": "Cloud load balancing",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7631
+        },
+        {
+          "source_id": "wiki:42411494",
+          "source_title": "Google Cloud Platform",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7426
+        },
+        {
+          "source_id": "wiki:428364",
+          "source_title": "Phishing",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.9347
+        },
+        {
+          "source_id": "wiki:43027004",
+          "source_title": "3-subset meet-in-the-middle attack",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.9674
+        },
+        {
+          "source_id": "wiki:43291963",
+          "source_title": "Kubernetes",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8907
+        },
+        {
+          "source_id": "wiki:43509183",
+          "source_title": "Microservices",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6603
+        },
+        {
+          "source_id": "wiki:43561218",
+          "source_title": "Word embedding",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6726
+        },
+        {
+          "source_id": "wiki:45049676",
+          "source_title": "Adversarial machine learning",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7332
+        },
+        {
+          "source_id": "wiki:46207323",
+          "source_title": "Feature engineering",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.958
+        },
+        {
+          "source_id": "wiki:47967",
+          "source_title": "Authentication",
+          "rank": 3,
+          "graph_activated": false,
+          "retrieval_ms": 0.6199
+        },
+        {
+          "source_id": "wiki:48364",
+          "source_title": "Software architecture",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7781
+        },
+        {
+          "source_id": "wiki:48758386",
+          "source_title": "Linear regression",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.9423
+        },
+        {
+          "source_id": "wiki:49263763",
+          "source_title": "Infrastructure as code",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7255
+        },
+        {
+          "source_id": "wiki:49946142",
+          "source_title": "Site reliability engineering",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8915
+        },
+        {
+          "source_id": "wiki:50353761",
+          "source_title": "GraphQL",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6144
+        },
+        {
+          "source_id": "wiki:51040757",
+          "source_title": "Serverless computing",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6495
+        },
+        {
+          "source_id": "wiki:51100188",
+          "source_title": "Alibaba Cloud",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6224
+        },
+        {
+          "source_id": "wiki:526999",
+          "source_title": "SQL injection",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6354
+        },
+        {
+          "source_id": "wiki:528249",
+          "source_title": "Code review",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6483
+        },
+        {
+          "source_id": "wiki:53042",
+          "source_title": "Symmetric-key algorithm",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6177
+        },
+        {
+          "source_id": "wiki:53043861",
+          "source_title": "Terraform (software)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6005
+        },
+        {
+          "source_id": "wiki:536697",
+          "source_title": "Authentication protocol",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6137
+        },
+        {
+          "source_id": "wiki:55955",
+          "source_title": "Version control",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.5826
+        },
+        {
+          "source_id": "wiki:573528",
+          "source_title": "Systems development life cycle",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6545
+        },
+        {
+          "source_id": "wiki:577003",
+          "source_title": "Decision tree learning",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6271
+        },
+        {
+          "source_id": "wiki:592687",
+          "source_title": "Network security",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.5841
+        },
+        {
+          "source_id": "wiki:59644",
+          "source_title": "Digital signature",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6157
+        },
+        {
+          "source_id": "wiki:60491",
+          "source_title": "Abstraction (computer science)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6029
+        },
+        {
+          "source_id": "wiki:61118",
+          "source_title": "Load balancing (computing)",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 1.0203
+        },
+        {
+          "source_id": "wiki:61589",
+          "source_title": "Access-control list",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8821
+        },
+        {
+          "source_id": "wiki:61603971",
+          "source_title": "Transformer (deep learning)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7049
+        },
+        {
+          "source_id": "wiki:61609252",
+          "source_title": "Service mesh",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8279
+        },
+        {
+          "source_id": "wiki:639009",
+          "source_title": "Agile software development",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7171
+        },
+        {
+          "source_id": "wiki:65073375",
+          "source_title": "Zero trust architecture",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6355
+        },
+        {
+          "source_id": "wiki:65309",
+          "source_title": "Support vector machine",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7384
+        },
+        {
+          "source_id": "wiki:66001552",
+          "source_title": "Attention (machine learning)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7027
+        },
+        {
+          "source_id": "wiki:66181",
+          "source_title": "Role-based access control",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6036
+        },
+        {
+          "source_id": "wiki:66294",
+          "source_title": "Reinforcement learning",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.9203
+        },
+        {
+          "source_id": "wiki:679737",
+          "source_title": "Orchestration (computing)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7008
+        },
+        {
+          "source_id": "wiki:68200658",
+          "source_title": "Containerization (computing)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6546
+        },
+        {
+          "source_id": "wiki:7023871",
+          "source_title": "Monolithic application",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7462
+        },
+        {
+          "source_id": "wiki:72023462",
+          "source_title": "Observability (software)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6838
+        },
+        {
+          "source_id": "wiki:73248112",
+          "source_title": "Large language model",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6597
+        },
+        {
+          "source_id": "wiki:73291755",
+          "source_title": "Generative AI",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 1.1397
+        },
+        {
+          "source_id": "wiki:7398",
+          "source_title": "Computer security",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.812
+        },
+        {
+          "source_id": "wiki:75229858",
+          "source_title": "Retrieval-augmented generation",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7411
+        },
+        {
+          "source_id": "wiki:76121942",
+          "source_title": "Neural network",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6902
+        },
+        {
+          "source_id": "wiki:76340",
+          "source_title": "Principal component analysis",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6819
+        },
+        {
+          "source_id": "wiki:780960",
+          "source_title": "Software maintenance",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6279
+        },
+        {
+          "source_id": "wiki:78938430",
+          "source_title": "Actor-critic algorithm",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7
+        },
+        {
+          "source_id": "wiki:8501",
+          "source_title": "Distributed computing",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7313
+        },
+        {
+          "source_id": "wiki:8640",
+          "source_title": "Database normalization",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6841
+        },
+        {
+          "source_id": "wiki:907222",
+          "source_title": "REST",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.5988
+        },
+        {
+          "source_id": "wiki:9325118",
+          "source_title": "ANSI-SPARC Architecture",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8038
+        },
+        {
+          "source_id": "wiki:9332179",
+          "source_title": "A/B testing",
+          "rank": 4,
+          "graph_activated": false,
+          "retrieval_ms": 0.6502
+        },
+        {
+          "source_id": "wiki:99431",
+          "source_title": "Advanced Encryption Standard process",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.733
+        }
+      ]
+    },
+    "unweighted": {
+      "n": 145,
+      "title_self_recall_at_1": 0.944828,
+      "title_self_recall_at_5": 1.0,
+      "mean_retrieval_ms": 0.7816,
+      "graph_activation_fraction": 0.696552,
+      "individual_probes": [
+        {
+          "source_id": "wiki:100558",
+          "source_title": "A* search algorithm",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 1.0002
+        },
+        {
+          "source_id": "wiki:1129827",
+          "source_title": "Vulnerability (computer security)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7766
+        },
+        {
+          "source_id": "wiki:113021",
+          "source_title": "Intrusion detection system",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.732
+        },
+        {
+          "source_id": "wiki:11322600",
+          "source_title": "Acoustic model",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6975
+        },
+        {
+          "source_id": "wiki:11590152",
+          "source_title": "Amazon Elastic Compute Cloud",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.681
+        },
+        {
+          "source_id": "wiki:1164",
+          "source_title": "Artificial intelligence",
+          "rank": 3,
+          "graph_activated": true,
+          "retrieval_ms": 0.9279
+        },
+        {
+          "source_id": "wiki:1199793",
+          "source_title": "Penetration test",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7486
+        },
+        {
+          "source_id": "wiki:12103809",
+          "source_title": "Infrastructure as a service",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7096
+        },
+        {
+          "source_id": "wiki:1242",
+          "source_title": "Ada (programming language)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6924
+        },
+        {
+          "source_id": "wiki:1260",
+          "source_title": "Advanced Encryption Standard",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7143
+        },
+        {
+          "source_id": "wiki:12737925",
+          "source_title": "Abductive logic programming",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8935
+        },
+        {
+          "source_id": "wiki:1363880",
+          "source_title": "Random forest",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8612
+        },
+        {
+          "source_id": "wiki:13790",
+          "source_title": "Hash function",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7804
+        },
+        {
+          "source_id": "wiki:14343887",
+          "source_title": "Precision and recall",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7141
+        },
+        {
+          "source_id": "wiki:15036",
+          "source_title": "Information security",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 1.2312
+        },
+        {
+          "source_id": "wiki:151617",
+          "source_title": "Authorization",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8286
+        },
+        {
+          "source_id": "wiki:15893057",
+          "source_title": "Applications of artificial intelligence",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6764
+        },
+        {
+          "source_id": "wiki:164952",
+          "source_title": "Software design pattern",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7036
+        },
+        {
+          "source_id": "wiki:1691376",
+          "source_title": "Amazon Web Services",
+          "rank": 2,
+          "graph_activated": true,
+          "retrieval_ms": 0.896
+        },
+        {
+          "source_id": "wiki:16986024",
+          "source_title": "Platform as a service",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8418
+        },
+        {
+          "source_id": "wiki:1706303",
+          "source_title": "Recurrent neural network",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8965
+        },
+        {
+          "source_id": "wiki:1711076",
+          "source_title": "Database index",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7071
+        },
+        {
+          "source_id": "wiki:173332",
+          "source_title": "Overfitting",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8226
+        },
+        {
+          "source_id": "wiki:1771747",
+          "source_title": "Git",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8064
+        },
+        {
+          "source_id": "wiki:1774081",
+          "source_title": "Continuous integration",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6794
+        },
+        {
+          "source_id": "wiki:1804746",
+          "source_title": "Distributed version control",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 1.1266
+        },
+        {
+          "source_id": "wiki:18311356",
+          "source_title": "Virtualization",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8612
+        },
+        {
+          "source_id": "wiki:18545292",
+          "source_title": "GitHub",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6988
+        },
+        {
+          "source_id": "wiki:1860407",
+          "source_title": "K-means clustering",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8519
+        },
+        {
+          "source_id": "wiki:187813",
+          "source_title": "Transport Layer Security",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7977
+        },
+        {
+          "source_id": "wiki:18934432",
+          "source_title": "Cryptography",
+          "rank": 2,
+          "graph_activated": true,
+          "retrieval_ms": 1.0869
+        },
+        {
+          "source_id": "wiki:18994196",
+          "source_title": "Computer virus",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7879
+        },
+        {
+          "source_id": "wiki:1906321",
+          "source_title": "Ransomware",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7185
+        },
+        {
+          "source_id": "wiki:194112",
+          "source_title": "Public key infrastructure",
+          "rank": 2,
+          "graph_activated": true,
+          "retrieval_ms": 0.8082
+        },
+        {
+          "source_id": "wiki:19541494",
+          "source_title": "Cloud computing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8132
+        },
+        {
+          "source_id": "wiki:19961416",
+          "source_title": "Microsoft Azure",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7259
+        },
+        {
+          "source_id": "wiki:201489",
+          "source_title": "Gradient descent",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7736
+        },
+        {
+          "source_id": "wiki:20609862",
+          "source_title": "AACS encryption key controversy",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.87
+        },
+        {
+          "source_id": "wiki:20926",
+          "source_title": "Supervised learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.9806
+        },
+        {
+          "source_id": "wiki:21652",
+          "source_title": "Natural language processing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8874
+        },
+        {
+          "source_id": "wiki:21785911",
+          "source_title": "API testing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6881
+        },
+        {
+          "source_id": "wiki:222828",
+          "source_title": "Unit testing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.698
+        },
+        {
+          "source_id": "wiki:2244296",
+          "source_title": "Authenticated encryption",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6647
+        },
+        {
+          "source_id": "wiki:2262333",
+          "source_title": "Software as a service",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.715
+        },
+        {
+          "source_id": "wiki:226631",
+          "source_title": "Logistic regression",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.785
+        },
+        {
+          "source_id": "wiki:22772421",
+          "source_title": "Multi-factor authentication",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7017
+        },
+        {
+          "source_id": "wiki:233488",
+          "source_title": "Machine learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8988
+        },
+        {
+          "source_id": "wiki:233497",
+          "source_title": "Unsupervised learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.9065
+        },
+        {
+          "source_id": "wiki:23968131",
+          "source_title": "NoSQL",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7593
+        },
+        {
+          "source_id": "wiki:240270",
+          "source_title": "Advanced SCSI Programming Interface",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6924
+        },
+        {
+          "source_id": "wiki:241154",
+          "source_title": "Cross-site scripting",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7149
+        },
+        {
+          "source_id": "wiki:24222",
+          "source_title": "Public-key cryptography",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.9989
+        },
+        {
+          "source_id": "wiki:24714635",
+          "source_title": "AAAI Conference on Artificial Intelligence",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7879
+        },
+        {
+          "source_id": "wiki:25873",
+          "source_title": "Relational database",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8198
+        },
+        {
+          "source_id": "wiki:26173989",
+          "source_title": "Firewall (computing)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.728
+        },
+        {
+          "source_id": "wiki:26220",
+          "source_title": "Relational model",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8034
+        },
+        {
+          "source_id": "wiki:26649339",
+          "source_title": "Gradient boosting",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6743
+        },
+        {
+          "source_id": "wiki:27010",
+          "source_title": "Software engineering",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8736
+        },
+        {
+          "source_id": "wiki:27262733",
+          "source_title": "Security information and event management",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.931
+        },
+        {
+          "source_id": "wiki:27471338",
+          "source_title": "Object-oriented programming",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.9499
+        },
+        {
+          "source_id": "wiki:27488100",
+          "source_title": "DevOps",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7303
+        },
+        {
+          "source_id": "wiki:27504787",
+          "source_title": "Agent-oriented programming",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7338
+        },
+        {
+          "source_id": "wiki:27697009",
+          "source_title": "API",
+          "rank": 2,
+          "graph_activated": true,
+          "retrieval_ms": 0.7336
+        },
+        {
+          "source_id": "wiki:28801798",
+          "source_title": "Active learning (machine learning)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8438
+        },
+        {
+          "source_id": "wiki:29004",
+          "source_title": "SQL",
+          "rank": 3,
+          "graph_activated": true,
+          "retrieval_ms": 0.8944
+        },
+        {
+          "source_id": "wiki:29090",
+          "source_title": "Software testing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7386
+        },
+        {
+          "source_id": "wiki:2962342",
+          "source_title": "Security operations center",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7871
+        },
+        {
+          "source_id": "wiki:30682131",
+          "source_title": "Jenkins (software)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8386
+        },
+        {
+          "source_id": "wiki:30873116",
+          "source_title": "3D modeling",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.714
+        },
+        {
+          "source_id": "wiki:3192516",
+          "source_title": "ACM Computing Classification System",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7697
+        },
+        {
+          "source_id": "wiki:32353",
+          "source_title": "Virtual machine",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8527
+        },
+        {
+          "source_id": "wiki:32472154",
+          "source_title": "Deep learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8939
+        },
+        {
+          "source_id": "wiki:32966352",
+          "source_title": "Repository (version control)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7787
+        },
+        {
+          "source_id": "wiki:33040530",
+          "source_title": "Platform engineering",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6843
+        },
+        {
+          "source_id": "wiki:33957671",
+          "source_title": "Continuous delivery",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8077
+        },
+        {
+          "source_id": "wiki:349771",
+          "source_title": "Artificial neuron",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7978
+        },
+        {
+          "source_id": "wiki:355711",
+          "source_title": "Integration testing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6918
+        },
+        {
+          "source_id": "wiki:357881",
+          "source_title": "Test-driven development",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.6992
+        },
+        {
+          "source_id": "wiki:36120070",
+          "source_title": "Continuous deployment",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6334
+        },
+        {
+          "source_id": "wiki:36219037",
+          "source_title": "Ansible (software)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6901
+        },
+        {
+          "source_id": "wiki:373991",
+          "source_title": "Atomicity (database systems)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.759
+        },
+        {
+          "source_id": "wiki:3920550",
+          "source_title": "Transfer learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6493
+        },
+        {
+          "source_id": "wiki:39776",
+          "source_title": "Denial-of-service attack",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.697
+        },
+        {
+          "source_id": "wiki:4005528",
+          "source_title": "Common Vulnerabilities and Exposures",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6667
+        },
+        {
+          "source_id": "wiki:40149201",
+          "source_title": "Docker (software)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6307
+        },
+        {
+          "source_id": "wiki:40409788",
+          "source_title": "Convolutional neural network",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.9341
+        },
+        {
+          "source_id": "wiki:40684",
+          "source_title": "Access control",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.792
+        },
+        {
+          "source_id": "wiki:416612",
+          "source_title": "Cross-validation (statistics)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.722
+        },
+        {
+          "source_id": "wiki:41969386",
+          "source_title": "Acceptance test-driven development",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6695
+        },
+        {
+          "source_id": "wiki:42173273",
+          "source_title": "Cloud load balancing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6746
+        },
+        {
+          "source_id": "wiki:42411494",
+          "source_title": "Google Cloud Platform",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.94
+        },
+        {
+          "source_id": "wiki:428364",
+          "source_title": "Phishing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7262
+        },
+        {
+          "source_id": "wiki:43027004",
+          "source_title": "3-subset meet-in-the-middle attack",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6588
+        },
+        {
+          "source_id": "wiki:43291963",
+          "source_title": "Kubernetes",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6898
+        },
+        {
+          "source_id": "wiki:43509183",
+          "source_title": "Microservices",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7348
+        },
+        {
+          "source_id": "wiki:43561218",
+          "source_title": "Word embedding",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7575
+        },
+        {
+          "source_id": "wiki:45049676",
+          "source_title": "Adversarial machine learning",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7119
+        },
+        {
+          "source_id": "wiki:46207323",
+          "source_title": "Feature engineering",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6954
+        },
+        {
+          "source_id": "wiki:47967",
+          "source_title": "Authentication",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.74
+        },
+        {
+          "source_id": "wiki:48364",
+          "source_title": "Software architecture",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7788
+        },
+        {
+          "source_id": "wiki:48758386",
+          "source_title": "Linear regression",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.9922
+        },
+        {
+          "source_id": "wiki:49263763",
+          "source_title": "Infrastructure as code",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7518
+        },
+        {
+          "source_id": "wiki:49946142",
+          "source_title": "Site reliability engineering",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8518
+        },
+        {
+          "source_id": "wiki:50353761",
+          "source_title": "GraphQL",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6829
+        },
+        {
+          "source_id": "wiki:51040757",
+          "source_title": "Serverless computing",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7748
+        },
+        {
+          "source_id": "wiki:51100188",
+          "source_title": "Alibaba Cloud",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8538
+        },
+        {
+          "source_id": "wiki:526999",
+          "source_title": "SQL injection",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7837
+        },
+        {
+          "source_id": "wiki:528249",
+          "source_title": "Code review",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7275
+        },
+        {
+          "source_id": "wiki:53042",
+          "source_title": "Symmetric-key algorithm",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6849
+        },
+        {
+          "source_id": "wiki:53043861",
+          "source_title": "Terraform (software)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7373
+        },
+        {
+          "source_id": "wiki:536697",
+          "source_title": "Authentication protocol",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6691
+        },
+        {
+          "source_id": "wiki:55955",
+          "source_title": "Version control",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.747
+        },
+        {
+          "source_id": "wiki:573528",
+          "source_title": "Systems development life cycle",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8352
+        },
+        {
+          "source_id": "wiki:577003",
+          "source_title": "Decision tree learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7138
+        },
+        {
+          "source_id": "wiki:592687",
+          "source_title": "Network security",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6859
+        },
+        {
+          "source_id": "wiki:59644",
+          "source_title": "Digital signature",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6919
+        },
+        {
+          "source_id": "wiki:60491",
+          "source_title": "Abstraction (computer science)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6906
+        },
+        {
+          "source_id": "wiki:61118",
+          "source_title": "Load balancing (computing)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7091
+        },
+        {
+          "source_id": "wiki:61589",
+          "source_title": "Access-control list",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6838
+        },
+        {
+          "source_id": "wiki:61603971",
+          "source_title": "Transformer (deep learning)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8366
+        },
+        {
+          "source_id": "wiki:61609252",
+          "source_title": "Service mesh",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6971
+        },
+        {
+          "source_id": "wiki:639009",
+          "source_title": "Agile software development",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6733
+        },
+        {
+          "source_id": "wiki:65073375",
+          "source_title": "Zero trust architecture",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7104
+        },
+        {
+          "source_id": "wiki:65309",
+          "source_title": "Support vector machine",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.844
+        },
+        {
+          "source_id": "wiki:66001552",
+          "source_title": "Attention (machine learning)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.737
+        },
+        {
+          "source_id": "wiki:66181",
+          "source_title": "Role-based access control",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 1.0119
+        },
+        {
+          "source_id": "wiki:66294",
+          "source_title": "Reinforcement learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8284
+        },
+        {
+          "source_id": "wiki:679737",
+          "source_title": "Orchestration (computing)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7232
+        },
+        {
+          "source_id": "wiki:68200658",
+          "source_title": "Containerization (computing)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6872
+        },
+        {
+          "source_id": "wiki:7023871",
+          "source_title": "Monolithic application",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7515
+        },
+        {
+          "source_id": "wiki:72023462",
+          "source_title": "Observability (software)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7636
+        },
+        {
+          "source_id": "wiki:73248112",
+          "source_title": "Large language model",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7857
+        },
+        {
+          "source_id": "wiki:73291755",
+          "source_title": "Generative AI",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7812
+        },
+        {
+          "source_id": "wiki:7398",
+          "source_title": "Computer security",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8605
+        },
+        {
+          "source_id": "wiki:75229858",
+          "source_title": "Retrieval-augmented generation",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6998
+        },
+        {
+          "source_id": "wiki:76121942",
+          "source_title": "Neural network",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 1.004
+        },
+        {
+          "source_id": "wiki:76340",
+          "source_title": "Principal component analysis",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7253
+        },
+        {
+          "source_id": "wiki:780960",
+          "source_title": "Software maintenance",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7161
+        },
+        {
+          "source_id": "wiki:78938430",
+          "source_title": "Actor-critic algorithm",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8563
+        },
+        {
+          "source_id": "wiki:8501",
+          "source_title": "Distributed computing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.786
+        },
+        {
+          "source_id": "wiki:8640",
+          "source_title": "Database normalization",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8625
+        },
+        {
+          "source_id": "wiki:907222",
+          "source_title": "REST",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7103
+        },
+        {
+          "source_id": "wiki:9325118",
+          "source_title": "ANSI-SPARC Architecture",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.9498
+        },
+        {
+          "source_id": "wiki:9332179",
+          "source_title": "A/B testing",
+          "rank": 5,
+          "graph_activated": true,
+          "retrieval_ms": 0.764
+        },
+        {
+          "source_id": "wiki:99431",
+          "source_title": "Advanced Encryption Standard process",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7562
+        }
+      ]
+    },
+    "hybrid": {
+      "n": 145,
+      "title_self_recall_at_1": 0.944828,
+      "title_self_recall_at_5": 1.0,
+      "mean_retrieval_ms": 0.7777,
+      "graph_activation_fraction": 0.696552,
+      "individual_probes": [
+        {
+          "source_id": "wiki:100558",
+          "source_title": "A* search algorithm",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8807
+        },
+        {
+          "source_id": "wiki:1129827",
+          "source_title": "Vulnerability (computer security)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8699
+        },
+        {
+          "source_id": "wiki:113021",
+          "source_title": "Intrusion detection system",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8324
+        },
+        {
+          "source_id": "wiki:11322600",
+          "source_title": "Acoustic model",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7011
+        },
+        {
+          "source_id": "wiki:11590152",
+          "source_title": "Amazon Elastic Compute Cloud",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.685
+        },
+        {
+          "source_id": "wiki:1164",
+          "source_title": "Artificial intelligence",
+          "rank": 3,
+          "graph_activated": true,
+          "retrieval_ms": 0.9516
+        },
+        {
+          "source_id": "wiki:1199793",
+          "source_title": "Penetration test",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.776
+        },
+        {
+          "source_id": "wiki:12103809",
+          "source_title": "Infrastructure as a service",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7901
+        },
+        {
+          "source_id": "wiki:1242",
+          "source_title": "Ada (programming language)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8875
+        },
+        {
+          "source_id": "wiki:1260",
+          "source_title": "Advanced Encryption Standard",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8289
+        },
+        {
+          "source_id": "wiki:12737925",
+          "source_title": "Abductive logic programming",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6996
+        },
+        {
+          "source_id": "wiki:1363880",
+          "source_title": "Random forest",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6555
+        },
+        {
+          "source_id": "wiki:13790",
+          "source_title": "Hash function",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7332
+        },
+        {
+          "source_id": "wiki:14343887",
+          "source_title": "Precision and recall",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8413
+        },
+        {
+          "source_id": "wiki:15036",
+          "source_title": "Information security",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8857
+        },
+        {
+          "source_id": "wiki:151617",
+          "source_title": "Authorization",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7013
+        },
+        {
+          "source_id": "wiki:15893057",
+          "source_title": "Applications of artificial intelligence",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6551
+        },
+        {
+          "source_id": "wiki:164952",
+          "source_title": "Software design pattern",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6838
+        },
+        {
+          "source_id": "wiki:1691376",
+          "source_title": "Amazon Web Services",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.941
+        },
+        {
+          "source_id": "wiki:16986024",
+          "source_title": "Platform as a service",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7193
+        },
+        {
+          "source_id": "wiki:1706303",
+          "source_title": "Recurrent neural network",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7991
+        },
+        {
+          "source_id": "wiki:1711076",
+          "source_title": "Database index",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6964
+        },
+        {
+          "source_id": "wiki:173332",
+          "source_title": "Overfitting",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 1.5528
+        },
+        {
+          "source_id": "wiki:1771747",
+          "source_title": "Git",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7793
+        },
+        {
+          "source_id": "wiki:1774081",
+          "source_title": "Continuous integration",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7038
+        },
+        {
+          "source_id": "wiki:1804746",
+          "source_title": "Distributed version control",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7464
+        },
+        {
+          "source_id": "wiki:18311356",
+          "source_title": "Virtualization",
+          "rank": 2,
+          "graph_activated": true,
+          "retrieval_ms": 0.7912
+        },
+        {
+          "source_id": "wiki:18545292",
+          "source_title": "GitHub",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8755
+        },
+        {
+          "source_id": "wiki:1860407",
+          "source_title": "K-means clustering",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8821
+        },
+        {
+          "source_id": "wiki:187813",
+          "source_title": "Transport Layer Security",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7411
+        },
+        {
+          "source_id": "wiki:18934432",
+          "source_title": "Cryptography",
+          "rank": 2,
+          "graph_activated": true,
+          "retrieval_ms": 0.9132
+        },
+        {
+          "source_id": "wiki:18994196",
+          "source_title": "Computer virus",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7976
+        },
+        {
+          "source_id": "wiki:1906321",
+          "source_title": "Ransomware",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7474
+        },
+        {
+          "source_id": "wiki:194112",
+          "source_title": "Public key infrastructure",
+          "rank": 2,
+          "graph_activated": true,
+          "retrieval_ms": 0.8262
+        },
+        {
+          "source_id": "wiki:19541494",
+          "source_title": "Cloud computing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.699
+        },
+        {
+          "source_id": "wiki:19961416",
+          "source_title": "Microsoft Azure",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6752
+        },
+        {
+          "source_id": "wiki:201489",
+          "source_title": "Gradient descent",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6853
+        },
+        {
+          "source_id": "wiki:20609862",
+          "source_title": "AACS encryption key controversy",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7169
+        },
+        {
+          "source_id": "wiki:20926",
+          "source_title": "Supervised learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.819
+        },
+        {
+          "source_id": "wiki:21652",
+          "source_title": "Natural language processing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8031
+        },
+        {
+          "source_id": "wiki:21785911",
+          "source_title": "API testing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8553
+        },
+        {
+          "source_id": "wiki:222828",
+          "source_title": "Unit testing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6529
+        },
+        {
+          "source_id": "wiki:2244296",
+          "source_title": "Authenticated encryption",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8769
+        },
+        {
+          "source_id": "wiki:2262333",
+          "source_title": "Software as a service",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8438
+        },
+        {
+          "source_id": "wiki:226631",
+          "source_title": "Logistic regression",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.948
+        },
+        {
+          "source_id": "wiki:22772421",
+          "source_title": "Multi-factor authentication",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8655
+        },
+        {
+          "source_id": "wiki:233488",
+          "source_title": "Machine learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8553
+        },
+        {
+          "source_id": "wiki:233497",
+          "source_title": "Unsupervised learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.878
+        },
+        {
+          "source_id": "wiki:23968131",
+          "source_title": "NoSQL",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7648
+        },
+        {
+          "source_id": "wiki:240270",
+          "source_title": "Advanced SCSI Programming Interface",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6332
+        },
+        {
+          "source_id": "wiki:241154",
+          "source_title": "Cross-site scripting",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6765
+        },
+        {
+          "source_id": "wiki:24222",
+          "source_title": "Public-key cryptography",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6879
+        },
+        {
+          "source_id": "wiki:24714635",
+          "source_title": "AAAI Conference on Artificial Intelligence",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7926
+        },
+        {
+          "source_id": "wiki:25873",
+          "source_title": "Relational database",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7271
+        },
+        {
+          "source_id": "wiki:26173989",
+          "source_title": "Firewall (computing)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6685
+        },
+        {
+          "source_id": "wiki:26220",
+          "source_title": "Relational model",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7704
+        },
+        {
+          "source_id": "wiki:26649339",
+          "source_title": "Gradient boosting",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6546
+        },
+        {
+          "source_id": "wiki:27010",
+          "source_title": "Software engineering",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7196
+        },
+        {
+          "source_id": "wiki:27262733",
+          "source_title": "Security information and event management",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.9026
+        },
+        {
+          "source_id": "wiki:27471338",
+          "source_title": "Object-oriented programming",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7763
+        },
+        {
+          "source_id": "wiki:27488100",
+          "source_title": "DevOps",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6736
+        },
+        {
+          "source_id": "wiki:27504787",
+          "source_title": "Agent-oriented programming",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6905
+        },
+        {
+          "source_id": "wiki:27697009",
+          "source_title": "API",
+          "rank": 2,
+          "graph_activated": true,
+          "retrieval_ms": 0.7181
+        },
+        {
+          "source_id": "wiki:28801798",
+          "source_title": "Active learning (machine learning)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7193
+        },
+        {
+          "source_id": "wiki:29004",
+          "source_title": "SQL",
+          "rank": 3,
+          "graph_activated": true,
+          "retrieval_ms": 0.8072
+        },
+        {
+          "source_id": "wiki:29090",
+          "source_title": "Software testing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7869
+        },
+        {
+          "source_id": "wiki:2962342",
+          "source_title": "Security operations center",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6638
+        },
+        {
+          "source_id": "wiki:30682131",
+          "source_title": "Jenkins (software)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6453
+        },
+        {
+          "source_id": "wiki:30873116",
+          "source_title": "3D modeling",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7139
+        },
+        {
+          "source_id": "wiki:3192516",
+          "source_title": "ACM Computing Classification System",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7236
+        },
+        {
+          "source_id": "wiki:32353",
+          "source_title": "Virtual machine",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8061
+        },
+        {
+          "source_id": "wiki:32472154",
+          "source_title": "Deep learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8209
+        },
+        {
+          "source_id": "wiki:32966352",
+          "source_title": "Repository (version control)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7435
+        },
+        {
+          "source_id": "wiki:33040530",
+          "source_title": "Platform engineering",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8822
+        },
+        {
+          "source_id": "wiki:33957671",
+          "source_title": "Continuous delivery",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7452
+        },
+        {
+          "source_id": "wiki:349771",
+          "source_title": "Artificial neuron",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7322
+        },
+        {
+          "source_id": "wiki:355711",
+          "source_title": "Integration testing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6489
+        },
+        {
+          "source_id": "wiki:357881",
+          "source_title": "Test-driven development",
+          "rank": 2,
+          "graph_activated": false,
+          "retrieval_ms": 0.7763
+        },
+        {
+          "source_id": "wiki:36120070",
+          "source_title": "Continuous deployment",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7262
+        },
+        {
+          "source_id": "wiki:36219037",
+          "source_title": "Ansible (software)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8627
+        },
+        {
+          "source_id": "wiki:373991",
+          "source_title": "Atomicity (database systems)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7344
+        },
+        {
+          "source_id": "wiki:3920550",
+          "source_title": "Transfer learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6966
+        },
+        {
+          "source_id": "wiki:39776",
+          "source_title": "Denial-of-service attack",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6934
+        },
+        {
+          "source_id": "wiki:4005528",
+          "source_title": "Common Vulnerabilities and Exposures",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6321
+        },
+        {
+          "source_id": "wiki:40149201",
+          "source_title": "Docker (software)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7074
+        },
+        {
+          "source_id": "wiki:40409788",
+          "source_title": "Convolutional neural network",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 1.0446
+        },
+        {
+          "source_id": "wiki:40684",
+          "source_title": "Access control",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7896
+        },
+        {
+          "source_id": "wiki:416612",
+          "source_title": "Cross-validation (statistics)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7261
+        },
+        {
+          "source_id": "wiki:41969386",
+          "source_title": "Acceptance test-driven development",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7456
+        },
+        {
+          "source_id": "wiki:42173273",
+          "source_title": "Cloud load balancing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.77
+        },
+        {
+          "source_id": "wiki:42411494",
+          "source_title": "Google Cloud Platform",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8919
+        },
+        {
+          "source_id": "wiki:428364",
+          "source_title": "Phishing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8047
+        },
+        {
+          "source_id": "wiki:43027004",
+          "source_title": "3-subset meet-in-the-middle attack",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7304
+        },
+        {
+          "source_id": "wiki:43291963",
+          "source_title": "Kubernetes",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8246
+        },
+        {
+          "source_id": "wiki:43509183",
+          "source_title": "Microservices",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 1.297
+        },
+        {
+          "source_id": "wiki:43561218",
+          "source_title": "Word embedding",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7492
+        },
+        {
+          "source_id": "wiki:45049676",
+          "source_title": "Adversarial machine learning",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.766
+        },
+        {
+          "source_id": "wiki:46207323",
+          "source_title": "Feature engineering",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7462
+        },
+        {
+          "source_id": "wiki:47967",
+          "source_title": "Authentication",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7788
+        },
+        {
+          "source_id": "wiki:48364",
+          "source_title": "Software architecture",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8849
+        },
+        {
+          "source_id": "wiki:48758386",
+          "source_title": "Linear regression",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 1.0129
+        },
+        {
+          "source_id": "wiki:49263763",
+          "source_title": "Infrastructure as code",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7166
+        },
+        {
+          "source_id": "wiki:49946142",
+          "source_title": "Site reliability engineering",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7979
+        },
+        {
+          "source_id": "wiki:50353761",
+          "source_title": "GraphQL",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8149
+        },
+        {
+          "source_id": "wiki:51040757",
+          "source_title": "Serverless computing",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7143
+        },
+        {
+          "source_id": "wiki:51100188",
+          "source_title": "Alibaba Cloud",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6768
+        },
+        {
+          "source_id": "wiki:526999",
+          "source_title": "SQL injection",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8496
+        },
+        {
+          "source_id": "wiki:528249",
+          "source_title": "Code review",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8089
+        },
+        {
+          "source_id": "wiki:53042",
+          "source_title": "Symmetric-key algorithm",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.748
+        },
+        {
+          "source_id": "wiki:53043861",
+          "source_title": "Terraform (software)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.706
+        },
+        {
+          "source_id": "wiki:536697",
+          "source_title": "Authentication protocol",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6307
+        },
+        {
+          "source_id": "wiki:55955",
+          "source_title": "Version control",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7266
+        },
+        {
+          "source_id": "wiki:573528",
+          "source_title": "Systems development life cycle",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.698
+        },
+        {
+          "source_id": "wiki:577003",
+          "source_title": "Decision tree learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6591
+        },
+        {
+          "source_id": "wiki:592687",
+          "source_title": "Network security",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6944
+        },
+        {
+          "source_id": "wiki:59644",
+          "source_title": "Digital signature",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7698
+        },
+        {
+          "source_id": "wiki:60491",
+          "source_title": "Abstraction (computer science)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6385
+        },
+        {
+          "source_id": "wiki:61118",
+          "source_title": "Load balancing (computing)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7357
+        },
+        {
+          "source_id": "wiki:61589",
+          "source_title": "Access-control list",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6738
+        },
+        {
+          "source_id": "wiki:61603971",
+          "source_title": "Transformer (deep learning)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.842
+        },
+        {
+          "source_id": "wiki:61609252",
+          "source_title": "Service mesh",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7315
+        },
+        {
+          "source_id": "wiki:639009",
+          "source_title": "Agile software development",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6971
+        },
+        {
+          "source_id": "wiki:65073375",
+          "source_title": "Zero trust architecture",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.714
+        },
+        {
+          "source_id": "wiki:65309",
+          "source_title": "Support vector machine",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7188
+        },
+        {
+          "source_id": "wiki:66001552",
+          "source_title": "Attention (machine learning)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.6971
+        },
+        {
+          "source_id": "wiki:66181",
+          "source_title": "Role-based access control",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8999
+        },
+        {
+          "source_id": "wiki:66294",
+          "source_title": "Reinforcement learning",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7962
+        },
+        {
+          "source_id": "wiki:679737",
+          "source_title": "Orchestration (computing)",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.6511
+        },
+        {
+          "source_id": "wiki:68200658",
+          "source_title": "Containerization (computing)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.634
+        },
+        {
+          "source_id": "wiki:7023871",
+          "source_title": "Monolithic application",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.8416
+        },
+        {
+          "source_id": "wiki:72023462",
+          "source_title": "Observability (software)",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7879
+        },
+        {
+          "source_id": "wiki:73248112",
+          "source_title": "Large language model",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7442
+        },
+        {
+          "source_id": "wiki:73291755",
+          "source_title": "Generative AI",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7522
+        },
+        {
+          "source_id": "wiki:7398",
+          "source_title": "Computer security",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.9413
+        },
+        {
+          "source_id": "wiki:75229858",
+          "source_title": "Retrieval-augmented generation",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 1.0836
+        },
+        {
+          "source_id": "wiki:76121942",
+          "source_title": "Neural network",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 1.0488
+        },
+        {
+          "source_id": "wiki:76340",
+          "source_title": "Principal component analysis",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.8088
+        },
+        {
+          "source_id": "wiki:780960",
+          "source_title": "Software maintenance",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.751
+        },
+        {
+          "source_id": "wiki:78938430",
+          "source_title": "Actor-critic algorithm",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7087
+        },
+        {
+          "source_id": "wiki:8501",
+          "source_title": "Distributed computing",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7645
+        },
+        {
+          "source_id": "wiki:8640",
+          "source_title": "Database normalization",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.698
+        },
+        {
+          "source_id": "wiki:907222",
+          "source_title": "REST",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7928
+        },
+        {
+          "source_id": "wiki:9325118",
+          "source_title": "ANSI-SPARC Architecture",
+          "rank": 1,
+          "graph_activated": false,
+          "retrieval_ms": 0.7063
+        },
+        {
+          "source_id": "wiki:9332179",
+          "source_title": "A/B testing",
+          "rank": 5,
+          "graph_activated": true,
+          "retrieval_ms": 0.6986
+        },
+        {
+          "source_id": "wiki:99431",
+          "source_title": "Advanced Encryption Standard process",
+          "rank": 1,
+          "graph_activated": true,
+          "retrieval_ms": 0.7668
+        }
+      ]
+    }
+  }
+}

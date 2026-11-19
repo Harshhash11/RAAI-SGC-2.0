@@ -1,0 +1,22 @@
+{
+  "dataset_file": "data/processed/master.csv",
+  "dataset_sha256": "6fae5c2bb59319422cd87b3ae799db09f315e09ca479a83d5451e1a2cf7be902",
+  "dataset_rows": 5206,
+  "source_rows": 145,
+  "edge_rows": 4771,
+  "draft_qa_rows": 290,
+  "university_eda_template_cells": 167,
+  "adapted_eda_cells": 167,
+  "university_ml_template_cells": 305,
+  "adapted_ml_cells": 305,
+  "execution_environment": "local Python container; separate from Google Colab T4",
+  "eda_cells_execute": true,
+  "ml_cells_execute": true,
+  "auxiliary_ml_heldout_test_n": 15,
+  "auxiliary_ml_heldout_test_accuracy": 0.8,
+  "auxiliary_ml_heldout_macro_f1": 0.7666666666666666,
+  "interpretation": "Auxiliary source-domain classifier metric. NOT an LLM metric or a weighted-GraphRAG improvement claim.",
+  "factual_review": "PENDING",
+  "license_review": "PENDING",
+  "gold_qa_benchmark": "NOT AVAILABLE"
+}

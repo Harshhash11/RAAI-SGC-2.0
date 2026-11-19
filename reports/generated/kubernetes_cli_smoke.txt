@@ -1,0 +1,3 @@
+MODE: extractive | GRAPH ACTIVATED: True
+Kubernetes , also known as K8s, is an open-source container orchestration system for automating software deployment, scaling, and management.
+SOURCE: Kubernetes — https://en.wikipedia.org/wiki/Kubernetes

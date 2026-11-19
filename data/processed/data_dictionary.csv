@@ -1,0 +1,33 @@
+column,description,data_type,applicable_record_types
+record_id,Stable unique row identifier,string,ALL
+record_type,"SOURCE, EDGE, or QA_DRAFT",string,ALL
+dataset_version,Version of consolidated dataset,string,ALL
+domain,Primary IT domain,string,ALL
+secondary_domains,Optional additional IT domains,string,ALL
+source_id,Stable Wikipedia source identifier,string,ALL
+source_title,Wikipedia page title,string,ALL
+source_url,Link to evidence source,string,ALL
+source_revision,Wikipedia revision identifier,string,ALL
+retrieved_at,UTC source retrieval timestamp,string,ALL
+source_provider,Original information provider,string,ALL
+license_status,Unreviewed licensing status; not permission,string,ALL
+review_status,Human review status; not an automated quality grade,string,ALL
+split,"Source-grouped train, validation or test partition",string,ALL
+concept_id,Identifier for page-level concept,string,ALL
+concept,Primary source concept,string,ALL
+source_text,Retrieved article extract; not guaranteed exhaustive,string,ALL
+text_hash,SHA-256 of source_text,string,ALL
+target_concept,Normalized graph target term,string,EDGE
+target_surface,Exact surface text extracted from evidence,string,EDGE
+evidence_start,Inclusive character offset for EDGE evidence,integer,EDGE
+evidence_end,Exclusive character offset for EDGE evidence,integer,EDGE
+markov_probability,Outgoing source transition probability,float,EDGE
+tfidf_score,Target TF-IDF score,float,EDGE
+edge_weight,Markov probability * (1 + tfidf_score),float,EDGE
+question_id,Q&A draft identifier,string,QA_DRAFT
+question_type,Generated question template,string,QA_DRAFT
+question,Draft question,string,QA_DRAFT
+answer_draft,Extractive answer requiring human review,string,QA_DRAFT
+evidence_source_ids,Source identifiers supporting answer,string,QA_DRAFT
+evidence_quote,Verbatim supporting source quote,string,ALL
+notes,Additional metadata or warnings,string,ALL

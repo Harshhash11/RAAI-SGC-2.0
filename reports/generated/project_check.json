@@ -1,0 +1,12 @@
+{
+  "sources": 145,
+  "edges": 4771,
+  "draft_qa": 290,
+  "approved_sft_examples": 0,
+  "approved_independent_eval": 0,
+  "kubernetes_top_hit": "Kubernetes",
+  "graph_activated_for_smoke_test": true,
+  "optional_gradio_installed": true,
+  "optional_transformers_installed": false,
+  "status": "CORE_CHECKS_PASSED; GPU and review gates still pending"
+}

@@ -1,0 +1,71 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments and local configuration
+.venv/
+.venv-llm/
+venv/
+env/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large model files / generated training outputs
+models/checkpoints/
+models/cache/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.bin
+!**/requirements*.txt
+huggingface_cache/
+.cache/
+
+# Human review decisions and personal reviewer details
+/data/review/
+/data/training/
+
+# Generated evaluation outputs and logs
+/data/evaluation/
+logs/
+runs/
+wandb/
+*.log
+
+# Large downloaded archives and temporary backups
+*.zip
+*.tar
+*.tar.gz
+*.backup.csv
+*.before_final
+*.backup
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local development backups
+*.previous.md
+.gitignore.previous
+*.before_*
+*.backup
+*.backup.csv

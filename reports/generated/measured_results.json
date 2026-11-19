@@ -1,0 +1,58 @@
+{
+  "dataset": {
+    "master_rows": 5206,
+    "master_columns": 32,
+    "sources": 145,
+    "edges": 4771,
+    "qa_drafts": 290,
+    "source_split": {
+      "train": 116,
+      "test": 15,
+      "validation": 14
+    },
+    "source_domain_counts": {
+      "ai_ml": 40,
+      "software_engineering": 37,
+      "cybersecurity": 36,
+      "cloud_devops": 32
+    },
+    "median_source_words": 156,
+    "mean_source_words": 178.0414,
+    "median_edges_per_source": 30,
+    "mean_edges_per_source": 32.9034,
+    "source_word_edge_pearson_r": 0.937176,
+    "review_approved_sources": 0
+  },
+  "aux_domain_classifier": {
+    "validation_macro_f1": {
+      "dummy": 0.111111,
+      "complement_nb": 0.759722,
+      "complement_nb_tuned": 0.766667,
+      "logistic_regression": 0.854167,
+      "logistic_regression_tuned": 0.936508
+    },
+    "validation_accuracy_selected": 0.928571,
+    "selected": "LogisticRegression tuned",
+    "test_accuracy": 0.8,
+    "test_macro_f1": 0.7666666667,
+    "test_samples": 15,
+    "test_correct": 12,
+    "class_recall": {
+      "ai_ml": 1.0,
+      "cloud_devops": 0.3333333333333333,
+      "cybersecurity": 1.0,
+      "software_engineering": 0.75
+    },
+    "note": "Metrics are for auxiliary source-domain classification only, not chatbot answer correctness."
+  },
+  "hypothesis_tests": {
+    "domain_split_chi2": 0.27405396467896476,
+    "domain_split_p": 0.9996129308622279,
+    "minimum_expected_cell": 3.089655172413793,
+    "chi2_warning": "asymptotic p unreliable",
+    "length_kruskal_h": 18.17854850754682,
+    "length_kruskal_p": 0.0004040837911494584,
+    "words_edges_spearman_rho": 0.9610655825957832,
+    "words_edges_spearman_p": 9.173965373357072e-82
+  }
+}
